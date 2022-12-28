@@ -1,0 +1,19 @@
+CC = gcc
+CFLAGS = -g -Wall
+
+default: Project_Client
+
+#To create the executable file count we need the object files
+Project_Client: Project_Client.o
+        $(CC) $(CFLAGS) -o Project_Client Project_Client.o
+
+#To create the object file Project_Client.o we need the source
+Project_Client.o:Data_Validation_Definition.c Data_Validation_Header.h Employee_Definition.c Employee_Header.h Employee_Project_Definition.c Manager_Definition.c Manager_Header.h Project_Details_Definition.c
+        $(CC) $(CFLAGS) -c Project_Client.c
+
+#To start over from scractch, type 'make clean'. This
+#remove the executable file, as well as old .o object
+# files and ^~ backup files:
+#
+clean:
+        $(RM) count '.o'~
