@@ -1,0 +1,22 @@
+all: Project
+
+Project: Project_Client.o Project_Details_Definition.o Manager_Definition.o Data_Validation_Definition.o Employee_Project_Definition.o
+        gcc Project_Client.o Project_Details_Definition.o Manager_Definition.o Data_Validation_Definition.o Employee_Project_Definition.o
+
+Project_Client.o: Project_Client.c
+        gcc -c Manager_Header.h Employee_Header.h Data_Validation_Header.h Project_Client.c
+
+Project_Details_Definition.o: Project_Details_Definition.c
+        gcc -c Manager_Header.h Project_Details_Definition.c
+
+Manager_Definition.o: Manager_Definition.c
+        gcc -c Manager_Header.h Manager_Definition.c
+
+Data_Validation_Definition.o: Data_Validation_Definition.c
+        gcc -c Data_Validation_Header.h Data_Validation_Definition.c
+
+Employee_Project_Definition.o: Employee_Project_Definition.c
+        gcc -c Manager_Header.h Employee_Project_Definition.c
+
+clean:
+        rm *.o
