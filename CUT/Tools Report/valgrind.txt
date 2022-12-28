@@ -1,0 +1,75 @@
+Your Username should contain atleast 1 uppercase and a lowercase letter
+
+Employee Username: Ruchi1
+
+Your password should contain 8 characters where it should have 1 uppercase letter, 1 lowercase letter, a digit and a special character
+
+Employee Password: Ruchi$19
+
+Your Employee ID should contains 6 digits
+
+Employee ID: 46281236
+Your e-mail should contain uppercase letter, lowercase letter, a digit and a special character
+
+Employee e-mail: Ruchitha12@gmail.com
+
+Your mobileno should contain only digits
+
+Employee mobileno:9885312958
+
+correct Username or Password or email or mobileno
+
+Press key to continue (1/0)...
+0
+
+---------------------------------------REGISTER------------------------------------
+
+Your Username should contain atleast 1 uppercase and a lowercase letter
+
+Employee Username: ^C==120==
+==120== Process terminating with default action of signal 2 (SIGINT)
+==120==    at 0x4962FB2: read (read.c:26)
+==120==    by 0x48E5D1E: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:517)
+==120==    by 0x48E7105: _IO_default_uflow (genops.c:362)
+==120==    by 0x48B93FF: __vfscanf_internal (vfscanf-internal.c:627)
+==120==    by 0x48B82E1: __isoc99_scanf (isoc99_scanf.c:30)
+==120==    by 0x109EF2: employee_register (in /home/pruchith/Project_Management_System/Project)
+==120==    by 0x10A198: employee_register (in /home/pruchith/Project_Management_System/Project)
+==120==    by 0x109C03: display_employee_menu (in /home/pruchith/Project_Management_System/Project)
+==120==    by 0x10A874: main (in /home/pruchith/Project_Management_System/Project)
+==120==
+==120== HEAP SUMMARY:
+==120==     in use at exit: 944 bytes in 2 blocks
+==120==   total heap usage: 4 allocs, 2 frees, 2,992 bytes allocated
+==120==
+==120== LEAK SUMMARY:
+==120==    definitely lost: 0 bytes in 0 blocks
+==120==    indirectly lost: 0 bytes in 0 blocks
+==120==      possibly lost: 0 bytes in 0 blocks
+==120==    still reachable: 944 bytes in 2 blocks
+==120==         suppressed: 0 bytes in 0 blocks
+==120== Rerun with --leak-check=full to see details of leaked memory
+==120==
+==120== For lists of detected and suppressed errors, rerun with: -s
+==120== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
