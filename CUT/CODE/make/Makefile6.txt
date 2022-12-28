@@ -1,0 +1,18 @@
+hello: Data_Validation_Header.h Employee_Header.h Manager_Header.h Data_Validation_Definition.c Employee_Definition.c Employee_Project_Definition.c Manager_Definition.c Project_Client.c Project_Details_Definition.c
+        gcc -o Project Data_Validation_Header.h Employee_Header.h Manager_Header.h Data_Validation_Definition.c Employee_definition.c Employee_Project_Definition.c Manager_Definition.c Project_Client.c Project_Details_Definition.c -I.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
